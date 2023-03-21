@@ -50,7 +50,7 @@ const Navbar = () => {
       }
       /* hide the original nav menu  */
       .navbar-list {
-        width: 100vw;
+        max-width: 100%;
         height: 100vh;
         position: absolute;
         top: 0;
