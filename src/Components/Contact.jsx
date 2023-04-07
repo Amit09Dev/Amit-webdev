@@ -92,6 +92,7 @@ const Contact = () => {
               autoComplete="off"
               placeholder="Your message"
             ></textarea>
+            <ReCAPTCHA sitekey="6Lem9RMlAAAAAKYrn1hw5Iji1KacsZ9_zXtnwtYQ" onChange={onChange}/>
              <input type="submit" value="send" />
           </form>
         </div>
